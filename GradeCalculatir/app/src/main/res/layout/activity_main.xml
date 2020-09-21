@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Grade Calculator"
+        android:textColor="#8770B6"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="105dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="8dp"
+        android:text="Final degree for mathmatics"
+        android:textColor="#7546D5"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="Hw10%"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="#2B2525"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="Cw 10%"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="#2B2525"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:hint="Midterm20%"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="#2B2525"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:hint="Final50%"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="#2B2525"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Calculate"
+        android:textColor="#7546D5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="8dp"
+        android:text="Result"
+        android:textColor="#7546D5"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="520dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Reset"
+        android:textColor="#7546D5"
+        android:textSize="24sp" />
+
+</RelativeLayout>
